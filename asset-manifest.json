@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mxlabs-prototype/static/css/main.7a262ab9.css",
+    "main.js": "/mxlabs-prototype/static/js/main.18fcc4ff.js",
+    "static/js/787.d4aba7ab.chunk.js": "/mxlabs-prototype/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/mxlabs-prototype/index.html",
+    "main.7a262ab9.css.map": "/mxlabs-prototype/static/css/main.7a262ab9.css.map",
+    "main.18fcc4ff.js.map": "/mxlabs-prototype/static/js/main.18fcc4ff.js.map",
+    "787.d4aba7ab.chunk.js.map": "/mxlabs-prototype/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a262ab9.css",
+    "static/js/main.18fcc4ff.js"
+  ]
+}
