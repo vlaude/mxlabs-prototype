@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MotoSvg from "./components/MotoSvg";
+import ColorPickerPanel from "./components/ColorPickerPanel";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app" className="w-screen h-screen">
+      <div className="grid h-full grid-cols-[300px_auto]">
+        <div className="bg-gray-100 border-r border-solid border-gray-300 p-4">
+          <ColorPickerPanel />
+        </div>
+        <MotoSvg id="moto-svg" className="self-center p-16" />
+      </div>
     </div>
   );
 }
